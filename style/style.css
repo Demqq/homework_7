@@ -219,7 +219,7 @@ body {
 /* history-block */
 .history {
     padding-top: 80px;
-    padding-bottom: 80px;
+
 }
 
 .history__inner-title {
@@ -373,6 +373,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 112px;
 }
 
 .pricing__offer-item {
@@ -407,7 +408,6 @@ body {
 
 
 .offer__price {
-
     padding-top: 20px;
     padding-bottom: 24px;
     font-weight: bold;
@@ -475,6 +475,85 @@ body {
     letter-spacing: 0.25px;
     color: #FFFFFF;
     background: #6C5CE7;
+}
+
+/* footer */
+
+.footer {
+    padding-bottom: 136px;
+    background-image: url(/img/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+.footer__first-line {
+    display: flex;
+}
+
+
+.footer__follow {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+
+    color: #ADADAD;
+}
+
+.footer__list {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer__follow-img {
+    margin-right: 37px;
+}
+q
+.footer__follow-img:first-child {
+    margin-left: 14px;
+}
+
+.footer__mail {
+    margin-left: 330px;
+}
+
+.follow__mail {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #6C5CE7;
+}
+
+.footer__follow-bottom {
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+
+    color: #ADADAD;
+}
+
+.second-line__lists {
+    margin-top: 16px;
+    display: flex;
+}
+
+.second-line__list {
+    margin-right: 50px;
+}
+
+.second-line__list-item {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+
+    color: #2D3436;
+    margin-bottom: 16px;
 }
 
 
