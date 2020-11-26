@@ -122,7 +122,7 @@ body {
 
 /* content-block */
 .main {
-    background-image: url(/img/content-bg.svg);
+    background-image: url(../img/content-bg.svg);
     background-repeat: no-repeat;
     background-position:  center bottom;
     box-shadow: 0px 4px 8px rgba(38, 50, 56, 0.08);
@@ -483,7 +483,7 @@ body {
 
 .footer {
     padding-bottom: 136px;
-    background-image: url(/img/footer-bg.svg);
+    background-image: url(../img/footer-bg.svg);
     background-repeat: repeat-x;
     background-position: center bottom;
 }
